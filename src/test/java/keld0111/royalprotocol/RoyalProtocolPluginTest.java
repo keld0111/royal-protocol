@@ -1,13 +1,13 @@
-package com.example;
+package keld0111.royalprotocol;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class RoyalProtocolPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(RoyalProtocolPlugin.class);
 		RuneLite.main(args);
 	}
 }
